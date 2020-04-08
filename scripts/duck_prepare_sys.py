@@ -6,7 +6,7 @@ try:
     from duck.utils.cal_ints import find_interaction
     from duck.steps.equlibrate import do_equlibrate
     from duck.utils.check_system import check_if_equlibrated
-except ModuleNotFoundError::
+except ModuleNotFoundError:
     print('Dependencies missing; check openmm, pdbfixer, and yank are installed from Omnia.')
 
 def main():

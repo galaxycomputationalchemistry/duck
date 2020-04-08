@@ -7,7 +7,7 @@ try:
         remove_prot_buffers_alt_locs,
         find_disulfides,
     )
-except ModuleNotFoundError::
+except ModuleNotFoundError:
     print('Dependencies missing; check openmm, pdbfixer, and yank are installed from Omnia.')
 
 def main():
